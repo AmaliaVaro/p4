@@ -179,7 +179,7 @@ table, td, th{
     border-radius: 20px;
 }
 
-.boton-añanimation-direction:hover{
+.boton-añadir:hover{
     box-shadow: 0 2px 1px rgba(0,0,0,0,1);
     transform: translateY(-2px);
 }
@@ -205,23 +205,15 @@ table, td, th{
     display: inline-block;
 }
 
-.band1{
-    width: 90%;
-    max-width: 1240px;
-    display:grid;
 
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-gap: 20px;
-}
 @media only screen and (min-width: 500px){
-    .band1{
+    .band{
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media only screen and (min-width: 850px){
-    .band1{
-        grid-template-columns:repeat(3, 1fr);
+    .band{
+        grid-template-columns:repeat(2, 1fr);
     }
 }
