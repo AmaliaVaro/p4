@@ -1,0 +1,61 @@
+.card{
+    text-decoration: none;
+}
+.comida{
+    background-image: url("com.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 100px;
+}
+.cosmeticos{
+    background-image: url("cosm.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 100px;
+}
+.ropa{
+    background-image: url("ropa.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 100px;
+}
+.electronica{
+    background-image: url("elect.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 100px;
+    text-decoration: none;
+}
+
+.login-reg{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px;
+    flex-wrap: wrap; 
+    
+    background-color:aliceblue ;
+}
+
+.columna {
+    flex: 1;
+    min-width: 300px;
+    max-width: 450px;
+}
+
+.divisor {
+    border-left: 1px solid #ccc;
+    height: auto;
+}
+.boton-inicio{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    text-decoration: none;
+    padding:10px;
+}
+.boton-inicio:hover{
+    box-shadow: 0 2px 1px rgba(0,0,0,0,1);
+    transform: translateY(-2px);
+}
