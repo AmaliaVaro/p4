@@ -1,11 +1,6 @@
 .card{
     text-decoration: none;
-}
-.comida{
-    background-image: url("com.jpg");
-    background-size: cover;
-    background-position: center center;
-    padding: 100px;
+    background-color: aliceblue;
 }
 .cosmeticos{
     background-image: url("cosm.jpg");
@@ -18,13 +13,6 @@
     background-size: cover;
     background-position: center center;
     padding: 100px;
-}
-.electronica{
-    background-image: url("elect.jpg");
-    background-size: cover;
-    background-position: center center;
-    padding: 100px;
-    text-decoration: none;
 }
 
 .login-reg{
@@ -47,15 +35,98 @@
     border-left: 1px solid #ccc;
     height: auto;
 }
-.boton-inicio{
+.boton-inicio, .boton-login, .boton-carrito{
     position: absolute;
     top: 20px;
-    right: 20px;
     font-size: 2rem;
     text-decoration: none;
     padding:10px;
 }
-.boton-inicio:hover{
+.boton-inicio:hover, .boton-login:hover, .boton-carrito:hover{
     box-shadow: 0 2px 1px rgba(0,0,0,0,1);
     transform: translateY(-2px);
 }
+
+.boton-inicio, .boton-login{
+    right: 20px;
+}
+
+.boton-carrito{
+    right:  75px;
+}
+
+table, td, th{
+    border: 1px solid;
+}
+.tabla-carrito table{
+    width: 100%;
+    margin: 20px auto;;
+    text-align: center;
+    border-collapse: collapse;
+}
+.img0-tabla{
+    background-image: url("brillo.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    margin: 5px auto;
+    display: block;
+}
+.img1-tabla{
+    background-image: url("colorete.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    margin: 5px auto;
+    display: block;
+}
+.img2-tabla{
+    background-image: url("brochas.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    margin: 5px auto;
+    display: block;
+}
+
+.img3-tabla{
+    background-image: url("sombra.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    margin: 5px auto;
+    display: block;
+}
+.img4-tabla{
+    background-image: url("sol.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    margin: 5px auto;
+    display: block;
+}
+.tabla-carrito td{
+    padding: 10px;
+    vertical-align: middle;
+}
+.tabla-carrito tr:hover{
+    background-color: aliceblue;
+}
+
+.pagar{
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    text-decoration: none;
+    padding:10px;
+}
+.pagar:hover{
+    box-shadow: 0 2px 1px rgba(0,0,0,0,1);
+    transform: translateY(-2px);
+}
+
