@@ -130,3 +130,62 @@ table, td, th{
     transform: translateY(-2px);
 }
 
+.descripcion{
+    padding: 15px;
+    text-align: center;
+}
+
+.boton-añadir{
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.boton-añanimation-direction:hover{
+    box-shadow: 0 2px 1px rgba(0,0,0,0,1);
+    transform: translateY(-2px);
+}
+
+.marcas{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.links-marcas a {
+   width: 80px;
+    height: 80px;
+    margin: 5px auto;
+    display: inline;
+}
+
+.img-marca{
+    background-size:auto;
+    background-position: center;
+    width: 150px;
+    height: 80px;
+    margin: auto;
+    display: inline-block;
+}
+
+.band{
+    width: 90%;
+    max-width: 1240px;
+    display:grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+@media only screen and(min-width: 500px){
+    .band{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 850px){
+    .band{
+        grid-template-columns:repeat(3, 1fr);
+    }
+}
